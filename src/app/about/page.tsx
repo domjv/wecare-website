@@ -1,12 +1,14 @@
 import AboutSection from '@/components/AboutSection';
-import CountSection from '@/components/CountSection';
-import HeroPanel from '@/components/HeroPanel';
-import Image from 'next/image';
+import SubPageHeader from '@/components/SubPageHeader';
+import React from 'react';
 
-export default function Home() {
+const About: React.FC = () => {
   return (
-    <>
-      <HeroPanel />
+    <div>
+      <SubPageHeader
+        title="About"
+        subtitle="Dedicated to high-quality, culturally inclusive care across a diverse range of services and programs."
+      />
       <AboutSection
         title="Who We Are"
         description1="At We Care Support, we offer high-quality care through a diverse, multilingual team, ensuring all participants feel supported regardless of background. Our services include In-Home, Community, and Domestic Assistance, complemented by group activities and day programs that boost well-being, skills development, and confidence for our participants."
@@ -16,11 +18,14 @@ export default function Home() {
           'Support with Community Participation',
           'Support with Development-Life Skills',
           'Assistance With Personal Care Tasks',
+          'Support with Household Tasks',
+          'Help with Daily Tasks / shared living',
+          'Assist with Travel/transport',
+          'Assist with life stage, transition',
         ]}
-        readMoreText="Read More"
-        readMoreLink="#"
       />
-      <CountSection />
-    </>
+    </div>
   );
-}
+};
+
+export default About;
