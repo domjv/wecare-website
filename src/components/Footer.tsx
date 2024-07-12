@@ -41,19 +41,16 @@ const Footer: React.FC = () => {
             <h4>Useful Links</h4>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="/about">About us</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="/services">Services</a>
               </li>
               <li>
-                <a href="#">Terms of service</a>
-              </li>
-              <li>
-                <a href="#">Privacy policy</a>
+                <a href="/privacy-policy">Privacy policy</a>
               </li>
             </ul>
           </div>
@@ -62,19 +59,13 @@ const Footer: React.FC = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="#">Web Design</a>
+                <a href="/services/community-participation">Community Participation</a>
               </li>
               <li>
-                <a href="#">Web Development</a>
+                <a href="/services/development-life-skills">Development-Life Skills</a>
               </li>
               <li>
-                <a href="#">Product Management</a>
-              </li>
-              <li>
-                <a href="#">Marketing</a>
-              </li>
-              <li>
-                <a href="#">Graphic Design</a>
+                <a href="/services/personal-care-tasks">Personal Activities/(high)</a>
               </li>
             </ul>
           </div>

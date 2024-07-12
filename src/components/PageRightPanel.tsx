@@ -4,12 +4,12 @@ export interface PageRightPanelProps {
   subHeading?: string;
   subText?: string;
   subTextLink?: string;
+  className?: string;
 }
 
-const PageRightPanel: React.FC<PageRightPanelProps> = ({ subHeading, subText, subTextLink }) => {
+const PageRightPanel: React.FC<PageRightPanelProps> = ({ subText, subTextLink, className }) => {
   return (
-    <div className="course-info d-flex justify-content-between align-items-center">
-      {subTextLink ? <h5><a href={subTextLink}>{subHeading}</a></h5> : <h5>{subHeading}</h5>}
+    <div className={`course-info d-flex justify-content-between align-items-center ${className}`}>
       {subTextLink ? (
         <p>
           <a href={subTextLink}>{subText}</a>

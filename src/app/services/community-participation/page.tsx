@@ -34,12 +34,12 @@ const CommunityParticipation: React.FC = () => {
               ]}
             />
             <div className="col-lg-4">
-              <PageRightPanel subHeading="Support with Community Participation" subTextLink='/services/community-participation' />
-              <PageRightPanel subHeading="Support with Development-Life Skills" subTextLink='/services/development-life-skills' />
-              <PageRightPanel subHeading="Assist with Personal Activities/(high)" subTextLink='/services/personal-care-tasks' />
-              <PageRightPanel subHeading="Help with Daily Tasks / shared living" />
-              <PageRightPanel subHeading="Assist with Travel/transport" />
-              <PageRightPanel subHeading="Assist with life stage, transition" />
+              <PageRightPanel subText="Support with Community Participation" subTextLink='/services/community-participation' className='active' />
+              <PageRightPanel subText="Support with Development-Life Skills" subTextLink='/services/development-life-skills' />
+              <PageRightPanel subText="Assist with Personal Activities/(high)" subTextLink='/services/personal-care-tasks' />
+              <PageRightPanel subText="Help with Daily Tasks / shared living" />
+              <PageRightPanel subText="Assist with Travel/transport" />
+              <PageRightPanel subText="Assist with life stage, transition" />
             </div>
           </div>
         </div>

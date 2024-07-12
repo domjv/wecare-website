@@ -18,13 +18,14 @@ const Services: React.FC = () => {
               description="Enhances social engagement through participation in local
                     events and community activities."
               imageUrl="/img/events-item-1.jpg"
-              link='/services/community-participation'
+              link="/services/community-participation"
             />
             <ServiceCard
               title="Support with Development-Life Skills"
               description="Offers guidance in essential life skills, promoting
                     independence and personal growth."
               imageUrl="/img/events-item-2.jpg"
+              link="/services/development-life-skills"
             />
           </div>
           <div className="row">
@@ -53,6 +54,7 @@ const Services: React.FC = () => {
               description="Supports high-need personal activities, ensuring dignity and
                     well-being in personal care."
               imageUrl="/img/events-item-2.jpg"
+              link="/services/personal-care-tasks"
             />
           </div>
         </div>

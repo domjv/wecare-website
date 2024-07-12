@@ -1465,7 +1465,11 @@ $bootstrap-icons-font-dir: "fonts";
       background: color-mix(in srgb, var(--default-color), transparent 95%);
       padding: 10px 15px;
       margin-bottom: 15px;
-  
+      
+      &.active {
+        color: var(--default-color) !important;
+        background: color-mix(in srgb, var(--default-color), transparent 85%);
+      }
       h5 {
         font-weight: 400;
         font-size: 16px;
@@ -1480,6 +1484,9 @@ $bootstrap-icons-font-dir: "fonts";
   
       a {
         color: var(--accent-color);
+        &:hover {
+          color: var(--default-color) !important;
+        }
       }
     }
   }
