@@ -1,7 +1,6 @@
 import AboutSection from '@/components/AboutSection';
-import CountSection from '@/components/CountSection';
+// import CountSection from '@/components/CountSection';
 import HeroPanel from '@/components/HeroPanel';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -18,9 +17,9 @@ export default function Home() {
           'Assistance With Personal Care Tasks',
         ]}
         readMoreText="Read More"
-        readMoreLink="#"
+        readMoreLink="/services"
       />
-      <CountSection />
+      {/* <CountSection /> */}
     </>
   );
 }
